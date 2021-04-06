@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Head section -->
+        <div class="head">
+            <h2>Fun App</h2>
+            <p><i>Try Your Luck!</i></p>
+        </div>
+        <div class="container-1">
+            <!-- Billboard Section -->
+            <div class="main">
+                <div class="key">
+
+                    <div class="input-section">
+                        <input type="text" class="input" placeholder="Enter: r, p or s...">
+                        <!-- <button class="btn">Enter</button> -->
+                    </div>
+                    <p class="text">r for Rock, p for paper, s for scissors</p>
+
+                </div>
+            </div>
+            <!-- cover section -->
+            <div class="cover">
+                <!-- part 1 -->
+                <div class="part-1">
+                    <h5 class="game" id="win">Win</h5>
+                    <h5 class="game" id="draw">Draw</h5>
+                    <h5 class="game" id="loose">Loose</h5>
+                </div>
+                <!-- part 2 -->
+                <div class="part-2">
+                    <h4>Odds</h4>
+                </div>
+                <!-- part 3 -->
+                <div class="part-3">
+                    <p class="random-1">0</p>
+                    <p class="random-2">0</p>
+                    <p class="random-3">0</p>
+                </div>
+                <!-- part 4 -->
+                <div class="part-4">
+                    <h4> Potential Outcome</h4>
+                </div>
+                <!-- part 5 -->
+                <div class="part-5">
+                    <div class="part-5a">
+                        <h6>Amount</h6>
+                        <input type="number" class="amount" placeholder="Enter Amount" />
+                    </div>
+                    <div class="part-5b">
+                        <div class="part-5a-1">
+                            <h6>Stake</h6>
+                            <h4 class="stake">0</h4>
+                        </div>
+                        <div class="part-5a-1">
+                            <h6>Potential Win</h6>
+                            <h4 class="output">0</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- part 6 -->
+                <div class="part-6">
+                    <h5>Results</h5>
+                    <div class="part-6a">
+                        <!-- part 1 -->
+                        <div class="part-left">
+                            <h5>Display</h5>
+                            <h5 class="final-result">result</h5>
+                        </div>
+                        <div class="part-right">
+                            <div class="part-right-1">
+                                <h5>User</h5>
+                                <h5 class="user-result">value</h5>
+                            </div>
+                            <div class="part-right-1">
+                                <h5>Computer</h5>
+                                <h5 class="computer-result">value</h5>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <h4 class="show-comment"><span class='c1'></span>.Your Acc Balance is K<span
+                                    class="c2"></span></h4>
+                        </div>
+                    </div>
+                    <!-- part 7 -->
+                    <div class="enter">
+                        <button type="button" class="enter-btn">Play</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
